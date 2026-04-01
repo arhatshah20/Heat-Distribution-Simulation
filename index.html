@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heat Distribution Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🔥 Heat Distribution Simulation</h1>
+
+<canvas id="heatCanvas"></canvas>
+
+<h3>Adjust Temperature</h3>
+<input type="range" id="slider" min="50" max="255" value="150">
+
+<p>
+This simulation shows how heat flows from high temperature (center) to low temperature (edges).
+Arrows represent direction using vector calculus (gradient).
+</p>
+
+<button onclick="location.reload()">Restart</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
